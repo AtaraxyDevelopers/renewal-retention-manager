@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "project": "renewal-retention-manager",
+  "settings": {
+    "currency": "USD",
+    "windowDays": 30,
+    "checkinDays": 30
+  },
+  "records": [
+    {
+      "id": "renewal-1",
+      "name": "Maple Studio",
+      "email": "buyer@example.com",
+      "amount": 2400,
+      "renewal": "2026-11-30",
+      "lastCheckin": "2026-10-01",
+      "health": "at-risk",
+      "status": "active",
+      "reason": "Customer needs onboarding help"
+    },
+    {
+      "id": "renewal-2",
+      "name": "River Foods",
+      "email": "team@example.com",
+      "amount": 1200,
+      "renewal": "2027-02-01",
+      "lastCheckin": "2026-11-10",
+      "health": "healthy",
+      "status": "active",
+      "reason": "Quarterly review completed"
+    }
+  ]
+}
